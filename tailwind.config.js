@@ -51,11 +51,22 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        ivory: "#FFFFF0",
+        "blush-pink": "#FEC5BB",
+        "emerald": {
+          700: "#047857",
+          800: "#065F46",
+          900: "#064E3B",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        serif: ['Merriweather', 'serif'],
+        sans: ['Montserrat', 'sans-serif'],
       },
       keyframes: {
         "accordion-down": {
